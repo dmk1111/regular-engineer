@@ -5,6 +5,9 @@ import { Controller, Get } from 'amala'
 export default class {
   @Get('/')
   root(ctx: Context) {
-    ctx.body = '<p>Cool cool cool cool, noice</p>>'
+    ctx.body = `
+<h1>Welcome!</h1>
+<p>Cool cool cool cool, noice</p>
+`
   }
 }

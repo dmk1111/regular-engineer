@@ -4,7 +4,7 @@ import { Controller, Get } from 'amala'
 @Controller('/')
 export default class {
   @Get('/')
-  async root(ctx: Context) {
+  root(ctx: Context) {
     ctx.body = '<p>Cool cool cool cool, noice</p>>'
   }
 }

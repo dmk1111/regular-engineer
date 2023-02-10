@@ -8,6 +8,6 @@ export default class {
     ctx.body = `
       <h1>Welcome!</h1>
       <p>Cool cool cool cool, noice</p>
-      `
+     `
   }
 }

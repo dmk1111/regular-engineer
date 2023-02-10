@@ -6,8 +6,8 @@ export default class {
   @Get('/')
   root(ctx: Context) {
     ctx.body = `
-      <h1>Welcome!</h1>
-      <p>Cool cool cool cool, noice</p>
+      <h2>Welcome!</h2>
+      <p>Cool cool cool cool, nice</p>
      `
   }
 }
